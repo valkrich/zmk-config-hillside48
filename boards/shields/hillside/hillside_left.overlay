@@ -1,13 +1,7 @@
-/*
- * Copyright (c) 2021 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
+#include "hillside.dtsi"
 
-#include "hillside48.dtsi" 
-
-&default_transform {
-    col-offset = <6>;
+&hillside52_52_transform {
+    col-offset = <0>;
 };
 
 &kscan0 {
