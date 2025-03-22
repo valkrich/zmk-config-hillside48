@@ -42,7 +42,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout_hillside52_52;
+        zmk,physical-layout = &physical_layout_hillside48_48;
     };
 
     kscan0: kscan {
