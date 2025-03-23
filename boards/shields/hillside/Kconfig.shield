@@ -3,13 +3,3 @@ config SHIELD_HILLSIDE_LEFT
 
 config SHIELD_HILLSIDE_RIGHT
     def_bool $(shields_list_contains,hillside_right)
-
-# Enable battery level reporting for the central side
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
-    bool "Enable central side battery level proxy"
-    default y
-
-# Enable fetching of the battery level from the peripheral side
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-    bool "Enable fetching of peripheral battery level"
-    default y
