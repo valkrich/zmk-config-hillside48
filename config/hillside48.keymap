@@ -13,7 +13,7 @@
 #define QWERTY_L 0
 #define DVORAK_L 1
 #define COLEMK_L 2
-#define SYM_L    3
+#define NUMPAD_L    3
 #define NUM_L    4
 #define ADJ_L    5
 #define Undo   LC(Z)
